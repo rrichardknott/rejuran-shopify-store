@@ -1456,6 +1456,19 @@ a[href^="tel"] {
   letter-spacing: 0.08em;
   white-space: normal;
   font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1em); }
+
+#watch-now-button{
+  background-color: #00BBB4;
+}
+
+#the-icon-quote{
+  color: #00BBB4;
+}
+
+#social-icons-footer{
+  color: #00BBB4;
+}
+
   @media only screen and (min-width: 750px) {
     .btn, .shopify-payment-button .shopify-payment-button__button--unbranded {
       padding: 10px 18px; } }
@@ -5650,6 +5663,10 @@ hr {
     .site-footer__item--center > * {
       text-align: center; } }
 
+
+#newsletter-button { /* newsletter button */
+  background-color: #00BBB4;
+}
 .site-footer__item-inner--newsletter {
   width: 100%; }
   .site-footer__item-inner--newsletter .newsletter__submit {
