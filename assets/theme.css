@@ -7052,3 +7052,21 @@ hr {
   background-color: rgba(240,248,255,0.2);
   display: inline-block;
 }
+
+.product-form__cart-submit, .btn.product-form__cart-submit:hover { /*btn--secondary-accent*/
+  background-color: aliceblue;
+  color: #00008b;
+}
+
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded,
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded:hover
+{ /**/
+  background-color: #00008b!important;
+  color: aliceblue!important;
+}
+
+#shopify-section-162278858207c41c64 { /*testimonial product section*/
+  background-color: #F0F8FF;
+  margin-bottom: -57px;
+  padding-bottom: 50px;
+}
