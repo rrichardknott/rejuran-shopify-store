@@ -1457,17 +1457,7 @@ a[href^="tel"] {
   white-space: normal;
   font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1em); }
 
-#watch-now-button{
-  background-color: #00BBB4;
-}
 
-#the-icon-quote{
-  color: #00BBB4;
-}
-
-#social-icons-footer{
-  color: #00BBB4;
-}
 
   @media only screen and (min-width: 750px) {
     .btn, .shopify-payment-button .shopify-payment-button__button--unbranded {
@@ -5106,23 +5096,7 @@ hr {
   .slideshow__btn-wrapper--push {
     margin-top: 30px; } }
 
-.slideshow__btn {
-  max-width: 100%;
-  display: inline-block;
-  word-wrap: break-word;
-  /*background-color: var(--color-btn-primary);*/
-  background-color: transparent;
-  border: 1px solid #ffffff!important;
-  color: var(--color-btn-primary-text);
-  min-height: 3.125rem;
-  line-height: 2.2; 
-  padding-left: 50px;
-  padding-right: 50px;
- }
 
- a.btn.slideshow__btn:hover{
-   background-color: transparent;
- }
   @media only screen and (max-width: 749px) {
     .slideshow__btn {
       display: none; } }
@@ -5664,9 +5638,6 @@ hr {
       text-align: center; } }
 
 
-#newsletter-button { /* newsletter button */
-  background-color: #00BBB4;
-}
 .site-footer__item-inner--newsletter {
   width: 100%; }
   .site-footer__item-inner--newsletter .newsletter__submit {
@@ -7022,3 +6993,62 @@ hr {
 
 .store-availability-list__phone {
   margin-bottom: 0; }
+
+
+/*MY STYLES*/
+#watch-now-button{
+  background-color: aliceblue;
+  color: #3A3A3A;
+}
+
+#the-icon-quote{
+  color: #3A3A3A;
+}
+
+#social-icons-footer{
+  color: #3A3A3A;
+}
+
+/*mid section row*/
+#shopify-section-1622787049bb3eefb6{
+  background-color: #F0F8FF;
+}
+
+#shopify-section-1622787049bb3eefb6 .btn{
+  border: 1px solid #3A3A3A;
+}
+
+.slideshow__btn {
+  max-width: 100%;
+  display: inline-block;
+  word-wrap: break-word;
+  /*background-color: var(--color-btn-primary);*/
+  background-color: transparent;
+  border: 1px solid #ffffff!important;
+  /*color: var(--color-btn-primary-text);*/
+  color: #ffffff;
+  min-height: 3.125rem;
+  line-height: 2.2; 
+  padding-left: 50px;
+  padding-right: 50px;
+ }
+
+ a.btn.slideshow__btn:hover{
+   background-color: transparent;
+   color: #ffffff;
+ }
+
+ .announcement-bar{
+   background-color: aliceblue!important;
+ }
+
+ 
+#newsletter-button { /* newsletter button */
+  background-color: aliceblue;
+  color: #3A3A3A;
+}
+
+.slideshow__arrows, .slideshow__pause, .slideshow__arrows:hover, .slideshow__pause:hover{
+  background-color: rgba(240,248,255,0.2);
+  display: inline-block;
+}
